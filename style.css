@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+
+#videobackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.all{
+    display: flex;
+}
+.content {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(143, 102, 73, 0.378);
+    color: rgb(228, 225, 187);
+    height: 4.5em;
+    width: 100%;
+    
+}
+
+.content h1{
+    position: relative;
+    text-align: right;
+    margin-right: 2em;
+    margin-top: -1.5em;
+    color: white;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.content ul li{
+    margin-top: 9px;
+    list-style: none;
+    display: inline-block;
+    margin-left:25px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.content ul li a{
+    text-decoration: none;
+    color: #fffefe;
+    font-size: 17px;
+    margin-top: 4px;
+    
+}
+
+.content li:hover{
+    color: rgb(71, 50, 24);
+    transition: 0.7s;
+}
+
+.text{
+   position: relative;
+    text-align: center;
+    padding-left: 39em;
+    padding-top: 18em;
+    color: #fffefe;
+}
+
+.text h1{
+    font-size: 3em;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.text button{
+    background-color: rgb(255, 255, 255, 0.2);
+    border-style: solid;
+    border-color: #fffefe;
+    font-size: 1.3em;
+    padding: 1em;
+    width: 10em;
+    border-radius: 100em;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.text button:hover{
+    background-color: rgb(59, 43, 22, 0.7);
+    transition: 0.7s;
+    color: white;
+}
+
+.sosmed{
+    position: absolute;
+   display: flex;
+    flex-direction: row;
+   padding-top: 13em;
+   padding-left: 45em;
+ 
+}
+
